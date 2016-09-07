@@ -1,0 +1,23 @@
+{
+  "name": "empty-project",
+  "description": "base frontend project",
+  "main": "index.js",
+  "authors": [
+    "Dmitriy Sinitsyn"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "node"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "2.*"
+  }
+}

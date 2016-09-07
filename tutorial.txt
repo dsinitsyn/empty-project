@@ -1,0 +1,34 @@
+---Compass installing
+
+WINDOWS:
+1) http://rubyinstaller.org/downloads/ - download ruby installer
+2) While installing mark Install Td/Tk support and Add Ruby to PATH
+3) Windows command promt run -
+
+MAC:
+1) Installing Homebrew
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+2) Installing Ruby
+brew install rbenv ruby-build
+
+# Add rbenv to bash so that it loads every time you open a terminal
+echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
+source ~/.bash_profile
+
+# Install Ruby
+rbenv install 2.3.1
+rbenv global 2.3.1
+ruby -v
+
+GENRAL:
+
+gem upadate --system
+gem install sass
+gem install compass
+gem install --pre sass-css-importer - (add-on for connectivity CSS files, not only *.scss)
+than
+
+npm install -g gulp
+npm install
+bower install
+run gulp
